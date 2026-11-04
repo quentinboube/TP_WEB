@@ -20,18 +20,30 @@ body {
     background: url("../image/fond.png");
 
     header {
-        background-color: aqua;
+        background-color: rgba(0, 0, 0, 0.753);
 
         .element{
-            margin-right: 50%;
+            margin-right: 45%;
         }
 
-        .choix{
+        nav{
+            
             display: flex;
-            flex-flow: column;
+            gap: 50px;
             padding: 5px;
             max-width: 220px;
             margin: auto;
+            a{
+                color : white;
+            }
+        }
+
+        .choix:hover{
+            color : #6C97E0;
+        }
+
+        .choix:visited{
+            color: white;
         }
 
         #conteneur{
@@ -54,7 +66,13 @@ body {
             margin: auto;
         }
 
-        
+        #image_description{
+            display: flex;
+            flex-flow: column;
+            padding: 5px;
+            max-width: 220px;
+            margin: auto;
+        }
 
         figcaption {
             background-color: #222222;
@@ -65,7 +83,7 @@ body {
             }
 
         img {
-            width: 45%;
+            width: 100%;
         }
 
         #lien :hover{
