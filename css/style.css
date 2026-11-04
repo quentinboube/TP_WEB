@@ -21,29 +21,25 @@ body {
 
     header {
         background-color: rgba(0, 0, 0, 0.753);
-
-        .element{
-            margin-right: 45%;
-        }
+        margin: 50px;
 
         nav{
             
-            display: flex;
-            gap: 50px;
-            padding: 5px;
-            max-width: 220px;
-            margin: auto;
+            .choix{
+                display: flex;
+                flex-flow: column;
+                padding: 5px;
+                max-width: 220px;
+                margin: auto;
+            }
+
             a{
                 color : white;
             }
         }
 
-        .choix:hover{
+        a:hover{
             color : #6C97E0;
-        }
-
-        .choix:visited{
-            color: white;
         }
 
         #conteneur{
